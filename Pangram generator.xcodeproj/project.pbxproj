@@ -23,6 +23,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		845929621BAD1B6A003702BE /* animals.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = animals.txt; sourceTree = "<group>"; };
+		845929641BAD1B75003702BE /* prepositions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = prepositions.txt; sourceTree = "<group>"; };
+		845929651BAD1B75003702BE /* verbs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = verbs.txt; sourceTree = "<group>"; };
+		845929661BAD1B82003702BE /* adjectives.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = adjectives.txt; sourceTree = "<group>"; };
+		845929671BAD1B9B003702BE /* colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
 		849B0F681B8D9B400098FFF7 /* Pangram generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pangram generator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849B0F6B1B8D9B400098FFF7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +62,11 @@
 		849B0F6A1B8D9B400098FFF7 /* Pangram generator */ = {
 			isa = PBXGroup;
 			children = (
+				845929671BAD1B9B003702BE /* colors.txt */,
+				845929641BAD1B75003702BE /* prepositions.txt */,
+				845929651BAD1B75003702BE /* verbs.txt */,
+				845929661BAD1B82003702BE /* adjectives.txt */,
+				845929621BAD1B6A003702BE /* animals.txt */,
 				849B0F6B1B8D9B400098FFF7 /* main.cpp */,
 			);
 			path = "Pangram generator";
@@ -232,6 +242,7 @@
 				849B0F711B8D9B400098FFF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
